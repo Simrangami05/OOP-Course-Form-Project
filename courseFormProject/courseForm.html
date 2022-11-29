@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="courseForm.css" />
+    <title>OOP Course Form Project</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-11 mx-auto text-center my-5">
+          <div class="computer">
+            <form class="my-5" id="customer-form">
+              <h2 class="text-capitalize">Get A FREE COURSE</h2>
+              <div class="feedback text-center text-capitalize">
+                calculating.....
+              </div>
+              <!-- single input -->
+              <div class="input-group my-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fas fa-user"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control text-capitalize name"
+                  id="name"
+                  placeholder="customer name"
+                />
+              </div>
+              <!-- end of single input -->
+              <!-- single input -->
+              <div class="input-group my-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fas fa-book"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control text-capitalize course"
+                  placeholder="course"
+                  id="course"
+                />
+              </div>
+              <!-- end of single input -->
+              <!-- single input -->
+              <div class="input-group my-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="fas fa-user-circle"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control text-capitalize author"
+                  placeholder="author"
+                  id="author"
+                />
+              </div>
+              <!-- end of single input -->
+              <button
+                type="submit"
+                class="btn btn-block submitBtn text-uppercase mt-4"
+              >
+                SUBMIT
+              </button>
+            </form>
+
+            <div class="loading">
+              <img src="loading.gif" alt="" />
+            </div>
+            <div class="mouse">
+              <div class="row customer-list">
+                <!-- single customer -->
+                <div class="col-11 mx-auto col-md-6 col-lg-4 my-3 image">
+                  <div class="card text">
+                    <img
+                      src="cust-0.jpg"
+                      class="card-img-top"
+                      width="250px"
+                      alt=""
+                    />
+                    <div class="card-body">
+                      <!-- customer name -->
+                      <h6 class="text-capitalize">
+                        <span class="badge badge-warning mr-2 position"
+                          >Name</span
+                        >
+                        <span id="customer-name big"
+                          >&nbsp&nbsp&nbsp : &nbsp John Anderson</span
+                        >
+                      </h6>
+                      <!-- end of customer name -->
+                      <!-- customer name -->
+                      <h6 class="text-capitalize my-3">
+                        <span class="badge badge-success mr-2 position"
+                          >Course</span
+                        >
+                        <span id="customer-course big"
+                          >&nbsp&nbsp : &nbsp CSS Basics
+                        </span>
+                      </h6>
+                      <!-- end of customer name -->
+                      <!-- customer name -->
+                      <h6 class="text-capitalize">
+                        <span class="badge badge-danger mr-2 position"
+                          >Author</span
+                        >
+                        <span id="course-author big"
+                          >&nbsp&nbsp: &nbsp John Anderson</span
+                        >
+                      </h6>
+                      <!-- end of customer name -->
+                    </div>
+                  </div>
+
+                  <!-- single customer -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script js -->
+    <script src="courseForm.js "></script>
+  </body>
+</html>

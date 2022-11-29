@@ -1,0 +1,110 @@
+:root {
+  --mainWhite: #f7f9f9;
+  --mainBrown: #a76d60;
+  --darkBrown: #601700;
+}
+body {
+  background: var(--mainWhite);
+}
+.row {
+  text-align: center;
+  margin: 130px 0px;
+}
+.input-group-text {
+  background: var(--mainBrown);
+  color: var(--mainWhite);
+  border-color: var(--mainBrown);
+}
+
+.form-control {
+  height: 35px;
+  width: 1000px;
+  margin: 10px -4px;
+  padding: 2px 5px;
+  border: 4px solid rgb(161, 100, 100);
+  border-radius: 3px 3px 3px 3px;
+}
+.submitBtn {
+  color: var(--darkBrown);
+  background: var(--mainWhite);
+  border: 0.2rem solid var(--darkBrown);
+  height: 45px;
+  width: 1020px;
+  margin: 10px 0px;
+  padding: px 5px;
+  border-radius: 3px;
+  transition: all 1s ease-in-out;
+  text-align: center;
+}
+.image {
+  text-align: center;
+  /* margin: 0px 600px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border: 1px solid rgb(225, 225, 225);
+  width: 250px;
+  text-align: center;
+}
+.mouse {
+  text-align: center;
+  /* display: flex; */
+  flex-direction: row;
+}
+.submitBtn:hover xc {
+  background: var(--darkBrown);
+  color: var(--mainWhite);
+}
+.fail {
+  border-color: red;
+}
+.complete {
+  border-color: green;
+}
+.feedback {
+  display: none;
+}
+.loading {
+  display: none;
+}
+:disabled {
+  opacity: 0.2 !important;
+}
+.showItem {
+  display: block;
+}
+
+.computer {
+  text-align: center;
+}
+.badge-warning {
+  background-color: orange;
+  padding: 5px 5px;
+}
+
+.badge-success {
+  background-color: green;
+  padding: 5px 5px;
+}
+.badge-danger {
+  background-color: red;
+  padding: 5px 5px;
+}
+.card-body {
+  text-align: left;
+  margin: 0px 20px;
+  font-size: larger;
+  /* color: white; */
+  font-weight: bold;
+  border-radius: 5px;
+}
+.badge {
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+.big {
+  font-size: 20px;
+}
